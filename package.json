@@ -1,8 +1,8 @@
 {
-  "name": "prep-portfolio",
+  "name": "portfolio",
   "version": "1.0.0",
   "private": true,
-  "description": "A practice portfolio web page",
+  "description": "A portfolio web page",
   "scripts": {
     "prepare": "husky install"
   },
@@ -13,5 +13,8 @@
     "stylelint": "^14.10.0",
     "stylelint-config-recommended": "^9.0.0",
     "stylelint-config-standard": "^27.0.0"
+  },
+  "dependencies": {
+    "react-router-dom": "^6.6.2"
   }
 }
