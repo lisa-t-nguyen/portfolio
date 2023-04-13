@@ -4,7 +4,7 @@ import HeaderButtons from './HeaderButtons'
 import Me from '../../assets/Me.png'
 import SocialMedia from './SocialMedia'
 
-const header = () => {
+const Header = () => {
   return (
     <header>
       <div className="container header_container">
@@ -24,4 +24,4 @@ const header = () => {
   )
 }
 
-export default header
+export default Header
