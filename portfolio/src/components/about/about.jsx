@@ -1,9 +1,9 @@
 import React from 'react'
 import './about.css'
 import Picture from '../../assets/Picture.png'
-import {BsBook} from 'react-icons/bs'
-import {ImBooks} from 'react-icons/im'
-import {AiOutlineFundProjectionScreen} from 'react-icons/ai'
+import {MdOutlineAssignmentTurnedIn} from 'react-icons/md'
+import {IoIosListBox} from 'react-icons/io'
+import {SiGithub} from 'react-icons/si'
 
 const About = () => {
   return (
@@ -22,28 +22,30 @@ const About = () => {
           <div className="about_cards">
 
             <article className='about_card'>
-              <BsBook className='about_icon'/>
-              <h5>Experience</h5>
-              <small>10+ years of professional general working experience</small>
+              <MdOutlineAssignmentTurnedIn className='about_icon'/>
+              <h5>800+</h5>
+              <small>Hours of Coding</small>
             </article>
 
             <article className='about_card'>
-              <ImBooks className='about_icon'/>
-              <h5>Tech Stack</h5>
-              <small>HTML, CSS, JavaScript, React, Node, Express, PostgreSQL</small>
+              <IoIosListBox className='about_icon'/>
+              <h5>130+</h5>
+              <small>Coding Assignments</small>
             </article>
 
             <article className='about_card'>
-              <AiOutlineFundProjectionScreen className='about_icon'/>
-              <h5>Projects</h5>
-              <small>3+ projects</small>
+              <SiGithub className='about_icon'/>
+              <h5>700+</h5>
+              <small>GitHub Contributions</small>
             </article>
+
           </div>
 
           <p>
-          I'm looking for a great, enthusiastic engineering team to work for that will provide me with challenging, interesting work 
-          that I can learn from and contribute to. I graciously receive and appreciate feedback/constructive criticism on how to 
-          improve and am intentional on implementing them in my day-to-day operations. 
+            After earning my Bachelor's Degree from California State University Fullerton, I pursued a Master's Degree at California State 
+            University Long Beach. After moving to Massachusetts, I entered the tech world to explore my passion in computer technology. I committed
+            to an accelerated Web Development bootcamp at LearningFuze in Irvine, California. During and after the bootcamp, my fascination for web
+            development solidified and I am always hungry to learn more- as I am a lifelong learner!
           </p>
 
           <a href='#contact' className='btn btn-primary'>Let's Talk</a>
