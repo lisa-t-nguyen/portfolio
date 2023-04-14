@@ -55,6 +55,10 @@ input, textarea {
     font-family: 'Poppins', sans-serif;
 }
 
+.contact-btn {
+    font-family: 'Poppins', sans-serif;
+}
+
 /* =============== MEDIA QUERIES (MEDIUM DEVICES) =============== */
 
 @media screen and (max-width: 1024px) {
