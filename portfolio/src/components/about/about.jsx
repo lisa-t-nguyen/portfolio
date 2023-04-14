@@ -43,7 +43,7 @@ const About = () => {
 
           <p>
             After earning my Bachelor's Degree from California State University Fullerton, I pursued a Master's Degree at California State 
-            University Long Beach. After moving to Massachusetts, I entered the tech world to explore my passion in computer technology. I committed
+            University Long Beach. Shortly after moving to Massachusetts, I entered the tech world to explore my passion in computer technology. I committed
             to an accelerated Web Development bootcamp at LearningFuze in Irvine, California. During and after the bootcamp, my fascination for web
             development solidified and I am always hungry to learn more- as I am a lifelong learner!
           </p>
