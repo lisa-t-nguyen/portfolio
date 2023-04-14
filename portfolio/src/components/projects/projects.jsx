@@ -1,13 +1,13 @@
 import React from 'react'
-import './portfolio.css'
+import './projects.css'
 import Recipe from '../../assets/Recipe.png'
 import StudentFuze from '../../assets/StudentFuze.png'
 
-const Portfolio = () => {
+const Projects = () => {
   return (
     <section id='portfolio'>
       <h5>My Recent Work</h5>
-      <h2>Portfolio</h2>
+      <h2>Projects</h2>
 
       <div className="container portfolio_container">
         <article className='portfolio_item'>
@@ -36,4 +36,4 @@ const Portfolio = () => {
   )
 }
 
-export default Portfolio
+export default Projects
