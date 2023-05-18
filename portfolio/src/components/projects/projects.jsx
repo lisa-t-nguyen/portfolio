@@ -2,6 +2,7 @@ import React from 'react'
 import './projects.css'
 import Recipe from '../../assets/Recipe.png'
 import StudentFuze from '../../assets/StudentFuze.png'
+import ExpeditionPlanner from '../../assets/ExpeditionPlanner.png'
 
 const Projects = () => {
   return (
@@ -29,6 +30,16 @@ const Projects = () => {
             <div className="portfolio_item-buttons">
               <a href='https://github.com/lisa-t-nguyen/student-fuze' className='btn' target='_blank'>GitHub</a>
               <a href='https://student-fuze.lisanguyen.dev/' className='btn btn-primary' target='_blank'>Live Deployment</a>
+            </div>
+        </article>
+
+        <article className='portfolio_item'>
+          <div className="portfolio_item-image">
+            <img src={ExpeditionPlanner} alt='ExpeditionPlanner'/>
+          </div>
+            <h3>Expedition Planner</h3>
+            <div className="portfolio_item-buttons">
+              <a href='https://github.com/lisa-t-nguyen/expedition-planner' className='btn' target='_blank'>GitHub</a>
             </div>
         </article>
       </div>
